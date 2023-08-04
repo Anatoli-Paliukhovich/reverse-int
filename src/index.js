@@ -4,5 +4,5 @@ module.exports = function reverse(n) {
 	for (let i = 0; i < strN.length; i++) {
 		result = `${strN[i]}${result}`;
 	} 
-	return parseFloat(result) * Math.sign(n);
+	return parseFloat(result);
 }
